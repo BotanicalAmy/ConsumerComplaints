@@ -1,0 +1,9 @@
+## Abstract
+*This work was park of a graduate research assignment in my advanced data science course**
+*Project timeline: September 1 through October 20, 2025*
+Consumer complaints in the banking industry provide critical insights for understanding customer satisfaction and regulatory oversight. This research develops an analytical framework to identify high-severity consumer complaints using Natural Language Processing and predictive modeling on 2023 Consumer Financial Protection Bureau (CFPB) data.
+Using transformer-based approaches with RoBERTa for sentiment analysis and DistilBERT for emotional classification, I analyzed 487,445 consumer complaint narratives from the 2023 CFPB database. A severity scoring algorithm was developed, balancing keyword-based indicators with sentiment analysis to produce scores ranging from 0 to 1. Through six iterative refinement cycles, the algorithm successfully stratified complaints into distinct severity categories, with high-severity complaints (>0.7) reflecting indicators of fraud, harassment, and financial distress.
+Logistic regression and random forest models were tested to predict high-severity complaints from product and issue categories. Models achieved ROC-AUC ~0.61, indicating that product and issue categories alone provide insufficient predictive power. These results suggest that predicting high severity complaints requires the integration of additional variables such as company financial data, complaint timing patterns, or internal company-level data that is not publicly available. 
+Notably, sentiment analysis revealed consumer narratives expressing gratitude to the CFPB for complaint resolution, highlighting the value of regulatory transparency and consumer protection services.
+
+Keywords: Regulatory transparency, Consumer complaints, Severity scoring, Natural Language Processing (NLP), Logistic Regression 
